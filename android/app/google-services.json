@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "494373224419",
+    "project_id": "bloodshare-4440f",
+    "storage_bucket": "bloodshare-4440f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494373224419:android:efc4c24736035cad48aad6",
+        "android_client_info": {
+          "package_name": "com.example.bloodshare"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQtWr9oHVcW5TTn5rYhcWjnhzjEn0vdm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
