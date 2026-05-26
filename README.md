@@ -1,16 +1,61 @@
-# bloodshare
+# BloodShare
 
-A new Flutter project.
+BloodShare adalah aplikasi mobile berbasis Flutter dan Firebase yang digunakan untuk pendataan donor darah, pengelolaan stok darah, pengajuan donor, serta permintaan darah. Aplikasi ini memiliki dua jenis role, yaitu pengguna dan admin.
 
-## Getting Started
+Aplikasi ini dibuat sebagai project UAS dengan tujuan membantu proses digitalisasi pendataan stok darah agar lebih mudah dipantau dan dikelola.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Deskripsi Singkat
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+BloodShare memungkinkan pengguna untuk melihat stok darah yang tersedia, mengajukan donor darah, serta mengajukan permintaan darah untuk pasien. Admin memiliki akses untuk mengelola stok darah, melihat data pengguna, serta menyetujui atau menolak pengajuan donor dan permintaan darah.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Aplikasi ini terintegrasi dengan Firebase Authentication untuk proses login/register dan Cloud Firestore sebagai database realtime.
+
+---
+
+## Fitur Pengguna
+
+- Register akun pengguna
+- Login menggunakan email dan password
+- Melihat stok darah yang tersedia
+- Melihat detail stok darah berdasarkan golongan darah, jumlah, lokasi, dan status
+- Mengajukan donor darah
+- Mengajukan permintaan darah untuk pasien
+- Melihat status pengajuan donor
+- Melihat status permintaan darah
+- Logout akun
+
+---
+
+## Fitur Admin
+
+- Login sebagai admin berdasarkan role akun
+- Dashboard admin dengan ringkasan data
+- CRUD stok darah:
+  - Tambah stok darah
+  - Lihat stok darah
+  - Edit stok darah
+  - Hapus stok darah
+- Melihat pengajuan donor dari pengguna
+- Menyetujui atau menolak pengajuan donor
+- Melihat permintaan darah dari pengguna
+- Menyetujui atau menolak permintaan darah
+- Melihat data pengguna yang terdaftar
+- Logout akun
+
+---
+
+## Teknologi yang Digunakan
+
+- Flutter
+- Dart
+- Firebase Authentication
+- Cloud Firestore
+- Firebase CLI
+- FlutterFire CLI
+- Android Emulator
+- Visual Studio Code
+- Git & GitHub
+
+---
