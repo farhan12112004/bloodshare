@@ -59,4 +59,9 @@ Aplikasi ini terintegrasi dengan Firebase Authentication untuk proses login/regi
 - Git & GitHub
 
 ---
+## Live Demo
+
+Aplikasi BloodShare versi web dapat diakses melalui GitHub Pages:
+
+https://farhan12112004.github.io/bloodshare/
 
